@@ -7,7 +7,7 @@
 # search foods
 
 # This code does several things:
-# 1. Laods in Exisiting wine pairing from top sources
+# 1. Loads in Exisiting wine pairing from top sources
 # 2. Create different food groups and assigns them to each food that are most commonly Google Searched
 # 3. Uses a Random Forest ML model to predict each food pairing
 # 4. Pushes the food pairing recommendations into a format that can be uploaded to our Alexa Skill
@@ -119,7 +119,7 @@ wine_parings_counts <- metrics %>%
 rm(metrics)
 
 # one off remove rose
-wine_parings <- wine_parings[which(wine_parings$Wine.Type != "Rosé"), ]
+wine_parings <- wine_parings[which(wine_parings$Wine.Type != "RosÃ©"), ]
 
 # Rename using the alternatives
 wine_parings$Wine.Type <- wine_parings$Wine.Type2
