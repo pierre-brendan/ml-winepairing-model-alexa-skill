@@ -1,5 +1,5 @@
 # ml-winepairing-model-alexa-skill
-Production version of Pinot Pairs/Which Wine Alexa Skills wine pairing model and output.  
+Production version of *Pinot Pairs* and *Which Wine* Alexa Skills wine pairing model and output.  
 Objective: Create a wine pairing Alexa Skill with several thousand pairings (3K+).
 
 ## This code does several things:
